@@ -3,7 +3,7 @@ This repository contains the code for the paper [Typo-Robust Representation Lear
 
 <img src="DST_Pipeline.png">
 
-# Installation
+## Installation
 We provide a ```setup.sh``` script to install this repository and python dependency packages, run the following command:
 ```
 sh setup.sh
@@ -11,10 +11,10 @@ sh setup.sh
 
 (Optional) To evaluate the models using our evaluation script, you'll need to install the [trec_eval](https://github.com/usnistgov/trec_eval).
 
-# Download Model Checkpoints
+## Download Model Checkpoints
 We provide our finetuned model checkpoints for [BERT-based DST-DPR](https://drive.google.com/file/d/1PjPF1EX7apX5KlQbRBzZ2BzulLDMg8zG/view?usp=sharing) and [CharacterBERT-based DST-DPR](https://drive.google.com/file/d/17IgUJg-SNf6homWx1_o9CNbgls8-eFgG/view?usp=sharing).
 
-# Train Models
+## Train Models
 In case you want to train the models from scratch, we provide the training script as follows:
 
 To train the BERT-based DST-DPR model, run the following command:
@@ -27,7 +27,7 @@ To train the CharacterBERT-based DST-DPR model, download the pre-trained [Charac
 sh scripts/train_characterbert.sh
 ```
 
-# Evaluation
+## Evaluation
 In this section, we describe the steps to evaluate the BERT-based DST-DPR model on the [MS MARCO](https://microsoft.github.io/msmarco/) and [DL-typo](https://github.com/ielab/CharacterBERT-DR/tree/main/data) passage ranking datasets.
 
 First, we need to encode the passages and queries into dense vectors using the trained models, then retrieve the top-k passages for each query. To do so, run the following command:
