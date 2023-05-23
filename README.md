@@ -1,4 +1,4 @@
-# Dual Self-Teaching (DST) Dense Retrieval
+# Dual Self-Teaching (DST) for Dense Retrieval
 This repository contains the code for the paper [Typo-Robust Representation Learning for Dense Retrieval](https://openreview.net/pdf?id=A5hKjXkDHd), ACL 2023.
 
 <img src="DST_Pipeline.png">
