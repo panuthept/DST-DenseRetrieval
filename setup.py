@@ -15,7 +15,7 @@ setup(
         "transformers",
         "textattack",
         "datasets",
-        "faiss",
+        "faiss-cpu",
         "numpy"
     ]
 )
