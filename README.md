@@ -10,6 +10,11 @@ sh setup.sh
 ```
 
 (Optional) To evaluate the models using our evaluation script, you'll need to install the [trec_eval](https://github.com/usnistgov/trec_eval).
+```
+git clone https://github.com/usnistgov/trec_eval.git
+cd trec_eval
+make
+```
 
 ## Download Model Checkpoints
 We provide our finetuned model checkpoints for [BERT-based DST-DPR](https://drive.google.com/file/d/1PjPF1EX7apX5KlQbRBzZ2BzulLDMg8zG/view?usp=sharing) and [CharacterBERT-based DST-DPR](https://drive.google.com/file/d/17IgUJg-SNf6homWx1_o9CNbgls8-eFgG/view?usp=sharing).
